@@ -1,0 +1,66 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+/lib
+/storybook-static
+# testing
+/coverage
+
+# production
+/build
+.vite
+.vitest
+/dist
+.idea
+.vscode
+.million
+/.specify
+/.github
+
+# VisualStudioCode
+.vscode/**/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+build-storybook.log
+chromatic-diagnostics.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+codegen.yml
+
+/test-results/
+
+# Large files - do not track
+src/app/features/Settings/PostalCode/mocks/ldu/*.geojson
+/playwright-report/
+/playwright/.cache/
+
+# others
+.million
+vite.config.ts.timestamp-*.mjs
+.eslintcache
+
+.tsbuildinfo
+# Sentry Config File
+.env.sentry-build-plugin
